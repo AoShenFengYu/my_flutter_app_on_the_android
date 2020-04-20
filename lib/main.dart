@@ -131,6 +131,7 @@ class Item {
   int number;
   Color color;
 
+  // color這樣寫代表非必要參數
   Item(this.name, this.number, {this.color});
 }
 
